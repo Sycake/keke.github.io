@@ -1,10 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Welcome to Ke Ke's World</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ke Ke's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Ke Ke, Hello World</h1>
-  <p>This is my personal website page.</p>
+    <header>
+        <h1>Ke Ke's Portfolio</h1>
+    </header>
+
+    <main>
+        <section id="architecture">
+            <h2 onclick="toggleSection('architectureContent')">Architecture</h2>
+            <div id="architectureContent" class="content">
+                <h3>Residential</h3>
+                <p>Details about residential projects...</p>
+
+                <h3>Commercial</h3>
+                <p>Details about commercial projects...</p>
+
+                <h3>Public</h3>
+                <p>Details about public projects...</p>
+            </div>
+        </section>
+
+        <section id="programming">
+            <h2 onclick="toggleSection('programmingContent')">Computer Programming</h2>
+            <div id="programmingContent" class="content">
+                <h3>Projects</h3>
+                <p>Details about programming projects...</p>
+                <h3>Technologies</h3>
+                <p>Details about technologies...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ke Ke</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
