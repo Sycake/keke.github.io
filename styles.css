@@ -12,8 +12,21 @@ header {
     text-align: center;
 }
 
-h2 {
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.content-section {
+    width: 48%;
     background-color: #ddd;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+h2 {
+    background-color: #bbb;
     padding: 0.5rem;
     cursor: pointer;
     margin: 0;
@@ -22,6 +35,7 @@ h2 {
 .content {
     padding: 1rem;
     background-color: #fff;
+    display: none;
 }
 
 footer {
